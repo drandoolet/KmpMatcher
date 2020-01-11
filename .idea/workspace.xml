@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2eb755a2-4b36-47cc-ae17-3dd0e951a45c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/kmp/matcher/KmpMatcher.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/main/java/kmp/matcher" />
+  </component>
+  <component name="ProjectId" id="1WFsgS75wCeVvnZwWLIfXMJE8ed" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/kmp" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kmp.matcher.Main" />
+      <module name="KMPMatcher" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KmpMatcherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KMPMatcher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kmp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kmp" />
+      <option name="MAIN_CLASS_NAME" value="kmp.KmpMatcherTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KmpMatcherTest.testKmpMatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KMPMatcher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kmp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kmp" />
+      <option name="MAIN_CLASS_NAME" value="kmp.KmpMatcherTest" />
+      <option name="METHOD_NAME" value="testKmpMatch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KmpMatcherTest.testPrefixFunc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KMPMatcher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kmp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kmp" />
+      <option name="MAIN_CLASS_NAME" value="kmp.KmpMatcherTest" />
+      <option name="METHOD_NAME" value="testPrefixFunc" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KmpMatcherTest.testPrefixFuncEffectiveness" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KMPMatcher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kmp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kmp" />
+      <option name="MAIN_CLASS_NAME" value="kmp.KmpMatcherTest" />
+      <option name="METHOD_NAME" value="testPrefixFuncEffectiveness" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.KmpMatcherTest.testPrefixFunc" />
+      <item itemvalue="JUnit.KmpMatcherTest" />
+      <item itemvalue="JUnit.KmpMatcherTest.testKmpMatch" />
+      <item itemvalue="JUnit.KmpMatcherTest.testPrefixFuncEffectiveness" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.KmpMatcherTest" />
+        <item itemvalue="JUnit.KmpMatcherTest.testKmpMatch" />
+        <item itemvalue="JUnit.KmpMatcherTest.testPrefixFuncEffectiveness" />
+        <item itemvalue="JUnit.KmpMatcherTest.testPrefixFunc" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2eb755a2-4b36-47cc-ae17-3dd0e951a45c" name="Default Changelist" comment="" />
+      <created>1578756788358</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578756788358</updated>
+      <workItem from="1578756791047" duration="10028000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
