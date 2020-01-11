@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class KmpMatcher {
-    public static int[] func(String template) {
+    public static int[] prefixFunc(String template) {
         int[] prefixFunc = new int[template.length()];
         prefixFunc[0] = 0;
 
@@ -25,7 +25,7 @@ public class KmpMatcher {
     public static List<Integer> kmpSearch(String s, String template) {
         List<Integer> found = new ArrayList<>();
 
-        int[] prefix = func(template);
+        int[] prefix = prefixFunc(template);
 
         int i = 0, j = 0;
 
