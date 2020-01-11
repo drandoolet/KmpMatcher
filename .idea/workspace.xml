@@ -3,6 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="2eb755a2-4b36-47cc-ae17-3dd0e951a45c" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/kmp/matcher/KmpMatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kmp/matcher/KmpMatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kmp/matcher/KmpMatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/kmp/KmpMatcherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kmp/KmpMatcherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kmp/matcher/KmpMatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kmp/matcher/KmpMatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kmp/matcher/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/kmp/KmpMatcherTest$RandomStringer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/kmp/KmpMatcherTest$RandomStringer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/kmp/KmpMatcherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/kmp/KmpMatcherTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +26,12 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/main/java/kmp/matcher" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WFsgS75wCeVvnZwWLIfXMJE8ed" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/kmp" />
@@ -46,14 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kmp.matcher.Main" />
-      <module name="KMPMatcher" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.KmpMatcherTest.testPrefixFunc">
     <configuration name="KmpMatcherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KMPMatcher" />
       <extension name="coverage">
@@ -65,6 +67,22 @@
       <option name="PACKAGE_NAME" value="kmp" />
       <option name="MAIN_CLASS_NAME" value="kmp.KmpMatcherTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KmpMatcherTest.testKmpCustom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KMPMatcher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kmp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kmp" />
+      <option name="MAIN_CLASS_NAME" value="kmp.KmpMatcherTest" />
+      <option name="METHOD_NAME" value="testKmpCustom" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,18 +136,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.KmpMatcherTest.testPrefixFunc" />
       <item itemvalue="JUnit.KmpMatcherTest" />
       <item itemvalue="JUnit.KmpMatcherTest.testKmpMatch" />
       <item itemvalue="JUnit.KmpMatcherTest.testPrefixFuncEffectiveness" />
+      <item itemvalue="JUnit.KmpMatcherTest.testKmpCustom" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KmpMatcherTest.testPrefixFunc" />
+        <item itemvalue="JUnit.KmpMatcherTest.testKmpCustom" />
         <item itemvalue="JUnit.KmpMatcherTest" />
         <item itemvalue="JUnit.KmpMatcherTest.testKmpMatch" />
         <item itemvalue="JUnit.KmpMatcherTest.testPrefixFuncEffectiveness" />
-        <item itemvalue="JUnit.KmpMatcherTest.testPrefixFunc" />
       </list>
     </recent_temporary>
   </component>
@@ -143,11 +162,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578756788358</updated>
-      <workItem from="1578756791047" duration="10028000" />
+      <workItem from="1578756791047" duration="10625000" />
+      <workItem from="1578774266815" duration="428000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

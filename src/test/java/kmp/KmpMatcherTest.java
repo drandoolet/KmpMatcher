@@ -22,18 +22,15 @@ public class KmpMatcherTest {
     @Test
     public void testPrefixFunc() {
         String template = "AABAAB";
+        int[] expected = new int[] {0, 1, 0, 1, 2, 3};
 
-        int[] func = KmpMatcher.func(template);
+        int[] func = KmpMatcher.prefixFunc(template);
 
         LOGGER.info(Arrays.toString(func));
 
-        assertEquals(0, func[0]);
-        assertEquals(1, func[1]);
-        assertEquals(0, func[2]);
-        assertEquals(1, func[3]);
-        assertEquals(2, func[4]);
-        assertEquals(3, func[5]);
-
+        for (int i = 0; i < expected.length; i++) {
+            assertEquals(expected[i], func[i]);
+        }
     }
 
     @Test
@@ -47,6 +44,19 @@ public class KmpMatcherTest {
 
         assertEquals(List.of(0, 10, 13, 16), found);
         assertEquals(Arrays.asList(0, 10, 13, 16), found);
+    }
+
+    @Test
+    public void testKmpCustom() {
+        String text = "MAMAMYLARAMUMAMAMAN";
+        String template = "MAMA";
+        List<Integer> expected = List.of(0, 12, 14);
+
+        List<Integer> found = KmpMatcher.kmpSearch(text, template);
+
+        LOGGER.info(found.toString());
+
+        assertEquals(expected, found);
     }
 
     @Test
